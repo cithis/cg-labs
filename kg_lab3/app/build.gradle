@@ -1,0 +1,24 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+implementation 'org.jetbrains:annotations:20.1.0'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'ua.kpi.kg3.App'
+}
+
+compileJava.options.encoding = 'UTF-8'

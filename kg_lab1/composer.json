@@ -1,0 +1,11 @@
+{
+  "require": {
+    "ext-imagick": "*",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "lab\\": "src/"
+    }
+  }
+}
